@@ -10,6 +10,8 @@
 
 @interface testProjectViewController : UIViewController {
     
+    int abc;
+    
 }
 
 @end
