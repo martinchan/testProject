@@ -20,6 +20,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    // sample test line
+    NSLog(@"This is added by me !");
      
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
